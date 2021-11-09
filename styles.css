@@ -1,0 +1,968 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    }
+    body {
+    background-color: rgba(156, 11, 156, 0.911);
+    font-family: "Oswald";
+    }
+    
+    .navbar {
+    border: rgba(231, 231, 12, 0.959) solid;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(231, 231, 12, 0.959);
+    position: fixed;
+    }
+    
+    .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;  
+    -ms-flex-wrap: wrap;  
+        flex-wrap: wrap;
+    }
+    .link {
+    color: yellow;
+    }
+    
+    
+    #share {
+    text-decoration: none;
+    color: #000000;
+    }
+    
+    a:hover a:focus {
+    color: white;
+    }
+    
+    .logo {
+    margin: -0.2%;
+    padding: -0.2%;
+    width: 12%;
+    height: 107%;
+    display: inline-block;
+    inline-size: inherit;
+    }
+    
+    .navbar-Text {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    padding-bottom: 100px;
+    position: absolute;
+    top: -8%;
+    left: 25%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    color: rgba(0, 0, 0, 0.774);
+    }
+    
+    .kobe-40 {
+    margin-left: 1%;
+    margin-top: 4%;
+    float: left;
+    }
+    
+    .heading1 {
+    margin-top: 5%;
+    font-size: 300%;
+    color: rgb(252, 252, 252);
+    font-style: italic;
+    margin-left: 23%;
+    }
+    
+    .text1 {
+    color: white;
+    margin-top: 4%;
+    font-size: 200%;
+    margin-left: 23%;
+    }
+    
+    .kobe-40-2 {
+    margin-top: 2%;
+    margin-right: 1%;
+    float: right;
+    }
+    
+    .heading2 {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 300%;
+    color: rgb(252, 252, 252);
+    font-style: italic;
+    }
+    
+    .text2 {
+    margin-left: 1%;
+    direction: ltr;
+    margin-top: 2%;
+    margin-right: 0px;;
+    color: white;
+    font-size: 200%;
+    }
+    
+    .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 40%;
+    height: 70%;
+    margin-top: 2%;
+    float: left;
+    margin-left: 1%;
+    }
+    
+    .text3 {
+    color: white;
+    font-size: 200%;
+    margin-top: 2%;
+    margin-left: 41%;
+    }
+    
+    .heading3 {
+        color: white;
+        font-size: 300%;
+        margin-top: 2%;
+        margin-left: 41%;
+        font-style: italic;
+    }
+    
+    .jackson {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: 1%;
+    width: 35%;
+    height: 80%;
+    }
+    
+    .heading4 {
+    color: white;
+    font-size: 300%;
+    font-style: italic;
+    margin-left: 1%;
+    }
+    
+    .text4 {
+    font-size: 200%;
+    color: white;
+    margin-left: 1%;
+    }
+    
+    .end {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-style: italic;
+    }
+    
+    .text5 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    }
+    
+    
+    
+    @media all and (max-width: 1354px ) {
+        .kobe-40 {
+            margin-left: 29%;
+            margin-top: 12%;
+            float: none;;
+        }
+            .heading1{
+                font-size: 300%;
+                color: rgb(252, 252, 252);
+                font-style: italic;
+                margin-left: 0%;
+                text-align: center;
+            }
+    
+                .text1 {
+                    color: white;
+                    font-size: 200%;
+                    margin-left: 0%;
+                    text-align: center;
+                }
+            
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 29%;
+                    float: none;
+                    }
+            
+            
+                    .heading2 {
+                        margin-top: 2%;
+                        margin-left: 1%;
+                        font-size: 300%;
+                        color: rgb(252, 252, 252);
+                        font-style: italic;
+                        text-align: center;
+                    }
+            
+                    .text2 {
+                        margin-left: 0%;
+                        direction: ltr;
+                        margin-top: 2%;
+                        margin-right: 0px;;
+                        color: white;
+                        font-size: 200%;
+                        text-align: center;
+                    }
+            
+                    .banner {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        width: 65%;
+                        height: 60%;
+                        margin-top: 2%;
+                        float: none;
+                        margin-left: 17%;
+                        }
+            
+                        .text3 {
+                            color: white;
+                            font-size: 200%;
+                            margin-top: 2%;
+                            margin-left: 0%;
+                            text-align: center;
+                        }
+            
+                        .heading3 {
+                            color: white;
+                            font-size: 300%;
+                            margin-top: 2%;
+                            margin-left: 0%;
+                            font-style: italic;
+                            text-align: center;
+                        }
+            
+                        .jackson {
+                            float: none;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-flex: 1;
+                                -ms-flex: 1;
+                                    flex: 1;
+                            -webkit-box-orient: horizontal;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: row;
+                                    flex-direction: row;
+                            margin-left: 35%;
+                            width: 30%;
+                            height: 70%;
+                            margin-top: 8% ;
+                        }
+                    
+                        .heading4 {
+                            color: white;
+                            font-size: 300%;
+                            font-style: italic;
+                            margin-left: 0%;
+                            margin-top: 2%;
+                            text-align: center;
+                        }
+                    
+                        .text4 {
+                            font-size: 200%;
+                            color: white;
+                            margin-left: 0%;
+                            margin-top: 2%;
+                            text-align: center;
+                        }
+                    
+                        .end {
+                            color: white;
+                            text-align: center;
+                            font-size: 300%;
+                            font-style: italic;
+                            margin-top: 25%;
+                        }
+                            
+                            .text5 {
+                            color: white;
+                            text-align: center;
+                            font-size: 200%;
+                            margin-top: 2%;
+                        }
+                    
+                    
+                    
+                    
+                    
+                    
+                    }
+                    @media all and (max-width: 2650px) and (min-width: 2270px) {
+                        .kobe-40 {
+                            margin-left: 1%;
+                            margin-top: 6%;
+                            float: left;
+                            }
+                            .heading1 {
+                                margin-top: 6%;
+                                font-size: 300%;
+                                color: rgb(252, 252, 252);
+                                font-style: italic;
+                                margin-left: 23%;
+                                }
+                                .navbar-Text {
+                                    display:-webkit-box;
+                                    display:-ms-flexbox;
+                                    display:flex;
+                                    padding-bottom: 100px;
+                                    position: absolute;
+                                    top: 15%;
+                                    left: 25%;
+                                    -ms-flex-wrap: nowrap;
+                                        flex-wrap: nowrap;
+                                    color: rgba(0, 0, 0, 0.774);
+                                    }
+                            }
+                    @media all and (max-width: 2269px) and (min-width: 1713px) {
+                        .kobe-40 {
+                            margin-left: 1%;
+                            margin-top: 8%;
+                            float: left;
+                            }
+                            .heading1 {
+                                margin-top: 8%;
+                                font-size: 300%;
+                                color: rgb(252, 252, 252);
+                                font-style: italic;
+                                margin-left: 23%;
+                                }
+                                .navbar-Text {
+                                    display:-webkit-box;
+                                    display:-ms-flexbox;
+                                    display:flex;
+                                    padding-bottom: 100px;
+                                    position: absolute;
+                                    top: 20%;
+                                    left: 25%;
+                                    -ms-flex-wrap: nowrap;
+                                        flex-wrap: nowrap;
+                                    color: rgba(0, 0, 0, 0.774);
+                                    }
+                            }
+                    @media all and (max-width: 1712px) and (min-width: 1355px) {
+                        .kobe-40 {
+                            margin-left: 1%;
+                            margin-top: 10%;
+                            float: left;
+                            }
+                            .heading1 {
+                                margin-top: 10%;
+                                font-size: 300%;
+                                color: rgb(252, 252, 252);
+                                font-style: italic;
+                                margin-left: 23%;
+                                }
+                                .navbar-Text {
+                                    display:-webkit-box;
+                                    display:-ms-flexbox;
+                                    display:flex;
+                                    padding-bottom: 100px;
+                                    position: absolute;
+                                    top: 25%;
+                                    left: 25%;
+                                    -ms-flex-wrap: nowrap;
+                                        flex-wrap: nowrap;
+                                    color: rgba(0, 0, 0, 0.774);
+                                    }
+                            }
+                            @media all and (max-width: 1354px) and (min-width: 1206px) {
+                                
+                                        .navbar-Text {
+                                            display:-webkit-box;
+                                            display:-ms-flexbox;
+                                            display:flex;
+                                            padding-bottom: 100px;
+                                            position: absolute;
+                                            top: 15%;
+                                            left: 25%;
+                                            -ms-flex-wrap: nowrap;
+                                                flex-wrap: nowrap;
+                                            color: rgba(0, 0, 0, 0.774);
+                                            }
+                                    }
+                      
+                            @media all and (max-width: 1206px) {
+                        .jackson {
+                            float: none;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-flex: 1;
+                                -ms-flex: 1;
+                                    flex: 1;
+                            -webkit-box-orient: horizontal;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: row;
+                                    flex-direction: row;
+                            margin-left: 31%;
+                            width: 40%;
+                            height: 70%;
+                            margin-top: 12% ;
+                      }
+                    
+                      .end {
+                        color: white;
+                        text-align: center;
+                        font-size: 300%;
+                        font-style: italic;
+                        margin-top: 29%;
+                      }
+                        .kobe-40 {
+                            margin-left: 28%;
+                            margin-top: 16%;
+                            float: none;;
+                        }
+                        .kobe-40-2 {
+                            margin-top: 2%;
+                            margin-left: 28%;
+                            float: none;
+                            }
+                
+                            .navbar-Text {
+                                display:-webkit-box;
+                                display:-ms-flexbox;
+                                display:flex;
+                                padding-bottom: 100px;
+                                position: absolute;
+                                top: 30%;
+                                left: 25%;
+                                -ms-flex-wrap: nowrap;
+                                    flex-wrap: nowrap;
+                                color: rgba(0, 0, 0, 0.774);
+                                }
+                        }
+                  @media all and (max-width: 1089px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 26%;
+                        width: 50%;
+                        height: 60%;
+                        margin-top: 21% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 36%;
+                  }
+                  .kobe-40 {
+                    margin-left: 25%;
+                    margin-top: 18%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 25%;
+                    float: none;
+                    }
+                
+                
+                
+                
+                  }
+                  @media all and (max-width: 928px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 24%;
+                        width: 55%;
+                        height: 55%;
+                        margin-top: 30% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 47%;
+                  }
+                  .kobe-40 {
+                    margin-left: 21%;
+                    margin-top: 20%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 21%;
+                    float: none;
+                    }
+                
+                
+                
+                
+                  }
+                  @media all and (max-width: 827px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 22%;
+                        width: 60%;
+                        height: 50%;
+                        margin-top: 43% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 47%;
+                  }
+                  .kobe-40 {
+                    margin-left: 17%;
+                    margin-top: 22%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 17%;
+                    float: none;
+                    }
+                
+                
+                
+                
+                  }
+                  @media all and (max-width: 723px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 23%;
+                        width: 55%;
+                        height: 35%;
+                        margin-top: 50% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 56%;
+                  }
+                  .kobe-40 {
+                    margin-left: 14%;
+                    margin-top: 24%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 14%;
+                    float: none;
+                    }
+                
+                
+                
+                
+                  }
+                  @media all and (max-width: 663px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 23%;
+                        width: 55%;
+                        height: 35%;
+                        margin-top: 72% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 56%;
+                  }
+                  .kobe-40 {
+                    margin-left: 15%;
+                    margin-top: 24%;
+                    width: 70%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 15%;
+                    float: none;
+                    width: 70%;
+                }
+                .banner {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                            flex: 1;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    width: 65%;
+                    height: 45%;
+                    margin-top: 2%;
+                    float: none;
+                    margin-left: 17%;
+                    }
+                
+                
+                  
+                  }
+                  @media all and (max-width: 582px) and (min-width: 380px) {
+                                
+                    .navbar-Text {
+                        display:-webkit-box;
+                        display:-ms-flexbox;
+                        display:flex;
+                        padding-bottom: 100px;
+                        position: absolute;
+                        top: 15%;
+                        left: 40%;
+                        -ms-flex-wrap: nowrap;
+                            flex-wrap: nowrap;
+                        color: rgba(0, 0, 0, 0.774);
+                        }
+                }
+                  @media all and (max-width: 563px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 23%;
+                        width: 55%;
+                        height: 25%;
+                        margin-top: 110% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 56%;
+                  }
+                  .kobe-40 {
+                    margin-left: 15%;
+                    margin-top: 26%;
+                    width: 70%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 15%;
+                    float: none;
+                    width: 70%;
+                }
+                .banner {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                            flex: 1;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    width: 65%;
+                    height: 40%;
+                    margin-top: 2%;
+                    float: none;
+                    margin-left: 17%;
+                    }
+                
+                
+                
+                  }
+                  @media all and (max-width: 463px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 23%;
+                        width: 55%;
+                        height: 15%;
+                        margin-top: 137% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 75%;
+                  }
+                  .kobe-40 {
+                    margin-left: 15%;
+                    margin-top: 26%;
+                    width: 70%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 15%;
+                    float: none;
+                    width: 70%;
+                }
+                .banner {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                            flex: 1;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    width: 70%;
+                    height: 30%;
+                    margin-top: 2%;
+                    float: none;
+                    margin-left: 17%;
+                    }
+                
+                
+                
+                  }
+                  @media all and (max-width: 468px) and (min-width: 383px) {
+                                
+                    .navbar-Text {
+                        display:-webkit-box;
+                        display:-ms-flexbox;
+                        display:flex;
+                        padding-bottom: 100px;
+                        position: absolute;
+                        top: -20%;
+                        left: 40%;
+                        -ms-flex-wrap: nowrap;
+                            flex-wrap: nowrap;
+                        color: rgba(0, 0, 0, 0.774);
+                        }
+                }
+                  @media all and (max-width: 382px) and (min-width: 320px) {
+                                
+                    .navbar-Text {
+                        display:-webkit-box;
+                        display:-ms-flexbox;
+                        display:flex;
+                        padding-bottom: 100px;
+                        position: absolute;
+                        top: -22%;
+                        left: 50%;
+                        -ms-flex-wrap: nowrap;
+                            flex-wrap: nowrap;
+                        color: rgba(0, 0, 0, 0.774);
+                        }
+                }
+                  @media all and (max-width: 363px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 21%;
+                        width: 62%;
+                        height: 15%;
+                        margin-top: 135% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 75%;
+                  }
+                  .kobe-40 {
+                    margin-left: 15%;
+                    margin-top: 33%;
+                    width: 70%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 15%;
+                    float: none;
+                    width: 70%;
+                }
+                .banner {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                            flex: 1;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    width: 73%;
+                    height: 20%;
+                    margin-top: 2%;
+                    float: none;
+                    margin-left: 17%;
+                    }
+                
+                
+                
+                  }
+                  @media all and (max-width: 320px) {
+                    .jackson {
+                        float: none;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                                flex: 1;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        margin-left: 21%;
+                        width: 62%;
+                        height: 15%;
+                        margin-top: 120% ;
+                  }
+                
+                  .end {
+                    color: white;
+                    text-align: center;
+                    font-size: 300%;
+                    font-style: italic;
+                    margin-top: 75%;
+                  }
+                  .kobe-40 {
+                    margin-left: 15%;
+                    margin-top: 38%;
+                    width: 70%;
+                    float: none;;
+                }
+                .kobe-40-2 {
+                    margin-top: 2%;
+                    margin-left: 15%;
+                    float: none;
+                    width: 70%;
+                }
+                
+                
+                
+                
+                  }
